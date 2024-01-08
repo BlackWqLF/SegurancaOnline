@@ -1,51 +1,51 @@
 const questions = [
     {
-        question: "Você baixa um documento com uma oferta de feriado e percebe que ele tem o nome 'Oferta 2022.docx.exe' Como você age?",
+        question: "Descarregas um ficheiro com uma oferta de feriado e percebes que tem o nome 'Oferta 2022.docx.exe' Como ages?",
         answers: [
-            { text: "é uma nova extensão para um novo tipo de documento moderno que ocupa menos memória e carrega mais rápido. Abro o documento sem preocupação", correct: false},
-            { text: "Acho que é um vírus. Eu não abro, eu apago diretamente", correct: true},
-            { text: "Não presto atenção nessas coisas, abro assim que baixa para conferir a oferta.", correct: false},
+            { text: "É uma nova extensão para um novo tipo de documento moderno que ocupa menos memória e carrega mais rápido. Abro o ficheiro sem preocupação.", correct: false},
+            { text: "Acho que é um vírus. Não abro o ficheiro, apago diretamente.", correct: true},
+            { text: "Não presto atenção nessas coisas, abro assim que acaba de descarregar para ver a oferta.", correct: false},
 
         ]
     },
     {
-        question: "Você recebe um SMS da sua loja online favorita. O que você faz, clica no link?",
+        question: "Recebes-te uma mensagem da tua loja online preferida. O que fazes, clicas no link?",
         answers: [
-            { text: "Mereço um voucher, mas não clico antes de ligar para a central de atendimento e confirmar que é deles.", correct: true},
-            { text: "Adoro a loja e confio nelas, então clico naturalmente, mal posso esperar para comprar algumas roupas", correct: false},
-            { text: "além de clicar, também envio a mensagem aos meus amigos para que eles também possam se beneficiar da oferta.", correct: false},
+            { text: "Mereço um voucher, mas não clico antes de ligar para o centro de atendimento e confirmo se é deles.", correct: true},
+            { text: "Adoro a loja e confio nela, então clico naturalmente, mal posso esperar para comprar algumas roupas.", correct: false},
+            { text: "Além de clicar, também envio a mensagem aos meus amigos para que eles também possam se beneficiar da oferta.", correct: false},
 
         ]
     },
     {
         question: "Quais dos dados abaixo correspondem ao cartão bancário?",
         answers: [
-            { text: "nome e sobrenome, número do cartão, código CVC, data de validade", correct: true},
-            { text: "iban", correct: false},
-            { text: "nome de usuário e senha da conta do internet banking", correct: false},
+            { text: "Nome e sobrenome, número do cartão, código CVV e data de validade", correct: true},
+            { text: "IBAN", correct: false},
+            { text: "Nome de utilizador e palavra-passe da conta do banco online.", correct: false},
 
         ]
     },
     {
-        question: "Em que situação você NÃO deve fornecer os dados do cartão?",
+        question: "Em que situação NÃO deves fornecer os dados do cartão?",
         answers: [
-            { text: "pagamento de contas on-line", correct: false},
-            { text: "registro em um serviço on-line com base em uma assinatura mensal", correct: false},
-            { text: "compras em lojas online", correct: false},
-            { text: "quando você precisa receber dinheiro", correct: true},
+            { text: "Pagamento de contas online.", correct: false},
+            { text: "Faço um registo num serviço online com base em uma assinatura mensal.", correct: false},
+            { text: "Compras em lojas online.", correct: false},
+            { text: "Quando preciso receber dinheiro.", correct: true},
 
         ]
     },
     {
-        question: "Você é chamado por uma pessoa que diz ser do banco e pede para você atualizar seus dados, caso contrário bloqueará o acesso à sua conta.",
+        question: "És chamado por uma pessoa que diz ser do banco e pede para atualizares os teus dados, caso contrário bloqueará o acesso à tua conta.",
         answers: [
-            { text: "Estou feliz que eles me ligaram. Conto tudo rapidamente: tanto o CNP quanto a conta bancária, não quero muito ter as contas bloqueadas, pretendo fazer compras", correct: false},
-            { text: "Eu iria atualizar, mas quando eles começam a me perguntar sobre os dados do cartão, eu desligo na cara deles. se fossem do banco, ele não deveria conhecê-los?", correct: true},
+            { text: "Estou feliz que eles ligaram-me. Digo tudo rapidamente: todos os dados bancários, não quero muito ter as contas bloqueadas, pretendo fazer compras.", correct: false},
+            { text: "Eu atualizava, mas quando eles começam perguntar-me sobre os dados do cartão, eu desligo a chamada. Se fossem do banco, eles não deveriam sabê-los?", correct: true},
 
         ]
     },
     {
-        question: "Você recebe um documento não solicitado de uma pessoa amiga ou conhecida. Você abre?",
+        question: "Recebes-te um documento não solicitado de uma pessoa amiga ou conhecida. Abres o documento?",
         answers: [
             { text: "Não", correct: true},
             { text: "Sim", correct: false},
@@ -53,82 +53,82 @@ const questions = [
         ]
     },
     {
-        question: "Você está saindo com amigos quando de repente recebe um e-mail com um alerta de segurança. O que você está fazendo?",
+        question: "Saíste com amigos quando de repente recebes um e-mail com um alerta de segurança. O que fazes neste caso?",
         answers: [
-            { text: "Eu acesso o link no e-mail", correct: true},
-            { text: "eu ignoro o e-mail", correct: false},
+            { text: "Abro o link enviado no e-mail.", correct: true},
+            { text: "Ignoro o e-mail", correct: false},
 
         ]
     },
     {
-        question: "Parece que você foi vítima de uma tentativa de hacking! Você deveria entrar em pânico? O que você está fazendo?",
+        question: "Parece que foste vítima de uma tentativa de hacking! Entrei em pânico? O que fazes nesse caso?",
         answers: [
-            { text: "Clico para alterar rapidamente minha senha", correct: false},
-            { text: "Eu marco como spam", correct: true},
+            { text: "Clico para trocar rapidamente a minha palavra-passe.", correct: false},
+            { text: "Marco como spam.", correct: true},
 
         ]
     },
     {
-        question: "Você recebe o e-mail abaixo de um hacker que lhe pede dinheiro para não publicar suas informações pessoais na Internet. Você está pagando a ele?",
+        question: "Recebes-te um e-mail de um hacker que te pede dinheiro para não publicar as tuas informações pessoais na Internet. Vais enviar-lhe dinheiro?",
         answers: [
-            { text: "Estou pagando agora para evitar mais problemas", correct: false},
-            { text: "Eu ignoro e marco como spam", correct: true},
+            { text: "Pago imediatamente para evitar mais problemas.", correct: false},
+            { text: "Ignoro o e-mail e marco como spam.", correct: true},
 
         ]
     },
     {
-        question: "Você recebe um e-mail que parece ser do seu colega de trabalho. Abrir o documento anexado?",
+        question: "Recebes um e-mail que parece ser do teu colega de trabalho. Abres o documento anexado?",
         answers: [
-            { text: "Sim. Normalmente não deixo meus colegas esperarem, então sigo as instruções do e-mail", correct: false},
-            { text: "não. Eu verifico primeiro do que se trata", correct: true},
+            { text: "Sim. Normalmente não deixo os meus colegas à espera, então sigo as orientações do e-mail.", correct: false},
+            { text: "Não. Verifico primeiro do que se trata.", correct: true},
 
         ]
     },
     {
         question: "Qual é a diferença entre uma conta IBAN e um número de cartão?",
         answers: [
-            { text: "nenhum, existem dois nomes para a mesma informação", correct: false},
-            { text: "o iban representa o código do cartão e o número do cartão identifica a ordem pela qual o cartão foi emitido", correct: false},
-            { text: "o iban representa a conta bancária e o número do cartão identifica o instrumento de pagamento", correct: true},
+            { text: "Nenhum, existem dois nomes para a mesma informação.", correct: false},
+            { text: "O IBAN representa o código do cartão e o número do cartão identifica a ordem pela qual o cartão foi emitido.", correct: false},
+            { text: "O IBAN representa a conta bancária e o número do cartão identifica o instrumento de pagamento.", correct: true},
 
         ]
     },
     {
-        question: "Quais das ações a seguir representam um risco à segurança dos seus dados?",
+        question: "Quais das ações a seguir representam um risco à segurança dos teus dados?",
         answers: [
-            { text: "pagamento online para compras em redes wi-fi públicas, sem senha", correct: false},
-            { text: "acessando a conta do internet banking", correct: false},
-            { text: "atualização de software em dispositivos", correct: true},
-            { text: "verificando links recebidos com um antivírus", correct: false}
+            { text: "Pagamento online para compras em redes wi-fi públicas, sem palavras-passe.", correct: false},
+            { text: "Acesso a conta do banco online.", correct: false},
+            { text: "Atualizo o software dos dispositivos.", correct: true},
+            { text: "Verifico links recebidos com um antivírus.", correct: false}
 
         ]
     },
     {
-        question: "Você percebe que o dinheiro foi sacado da sua conta sem o seu conhecimento, é aconselhável avisar na primeira vez?",
+        question: "Notaste que o dinheiro foi levantado da tua conta sem o teu conhecimento, é aconselhável avisar logo o/a?",
         answers: [
             { text: "DNS", correct: false},
             { text: "Familia", correct: false},
-            { text: "Policia", correct: true},
-            { text: "Banco", correct: false}
+            { text: "Policia", correct: false},
+            { text: "Banco", correct: true}
 
         ]
     },
     {
-        question: "Você conheceu um primo do noivo em um casamento. Ele te liga e pergunta se pode te dar algum dinheiro para mandar para alguém que precisa de tratamento médico urgente, e ele não tem contas no país, muitas vezes vai trabalhar fora do país. O que você está fazendo?",
+        question: "Conheceste um amigo do noivo em um casamento. Ele liga-te e pergunta se podes lhe dar dinheiro para mandar a alguém que precisa de tratamento médico urgente, mas ele não tem contas bancárias no país, porque trabalha fora do país. O que tu fazes?",
         answers: [
-            { text: "Eu não passo dinheiro de um estranho pela minha conta! Quem sabe qual é a realidade!", correct: true},
-            { text: "Mal o conheci, a família dele não pode ajudá-lo? mas quem sabe, talvez eles não saibam. Me sinto estranho, mas estou ajudando ele, é por uma boa causa", correct: false},
-            { text: "Eu o ajudo, claro! somos todos humanos e aquele ditado - ajude o homem quando ele precisar, não quando você quiser", correct: false},
+            { text: "Não mando dinheiro a um estranho pela minha conta! Quem sabe se é verdade o que ele diz!", correct: true},
+            { text: "Mal o conheci, a família dele não o pode ajudar? Sinto-me estranho, mas vou ajudá-lo, é por uma boa causa.", correct: false},
+            { text: "Vou ajudá-lo, claro! Somos todos humanos.", correct: false},
             
 
         ]
     },
     {
-        question: "Você cria uma conta de usuário em um site. Qual senha você usa?",
+        question: "Crias uma conta num site online. Qual a palavra-passe que vais usar?",
         answers: [
-            { text: "Invento uma senha que anoto em algum lugar: tem letras minúsculas, maiúsculas, números, misturadas e não uso mais em lugar nenhum.", correct: true},
-            { text: "o mesmo que uso em todos os lugares. Caso contrário, vou esquecer!", correct: false},
-            { text: "um simples de lembrar, mas poderoso! [Nome de usuário]1234. Também contém letras e números.", correct: false},
+            { text: "Invento uma senha que anoto em algum lugar: contém letras minúsculas, maiúsculas e números, tudo misturado e não vou usá-la em mais nenhum site ou conta.", correct: true},
+            { text: "A mesma que uso em todos os sites ou contas. Senão vou esquecê-la!", correct: false},
+            { text: "Uma simples de lembrar, mas forte! Por exemplo [O meu nome]1234.", correct: false},
             
 
         ]
@@ -147,7 +147,7 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
+    nextButton.innerHTML = "Próximo";
     showQuestion();
 }
 
